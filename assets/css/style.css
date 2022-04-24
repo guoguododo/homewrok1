@@ -75,6 +75,8 @@ p {
     margin-left: 20px;
 }
 
+
+/* replaced repeated class attribute into one class*/
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -86,6 +88,7 @@ p {
     background-color: #2589bd;
 }
 
+/* replaced repeated class attribute into one class*/
 .benefit-all {
     margin-bottom: 32px;
     color: #ffffff;
@@ -121,11 +124,13 @@ p {
     font-size: 36px;
 }
 
+/* do not show footer according to the example image*/
 .footer {
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
+    display: none;
 }
 
 .footer h2 {
